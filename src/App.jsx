@@ -7,6 +7,7 @@ import Resume from "./pages/Resume"
 import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/Contact"
 import Project  from "./pages/Project";
+import NotFound from "./pages/NotFound";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
             <Route path="/project-list" element={<Portfolio />}/>
             <Route path="/project/:name" element={<Project />}/>
             <Route path="/contact" element={<Contact />}/>
+            <Route path="*" element={<NotFound />}/>
           </Routes>
         </div>
       </Router>
