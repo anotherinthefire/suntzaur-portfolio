@@ -11,7 +11,7 @@ const Project = ( ) => {
   const otherProjects = projectContent.filter(project => project.name !== name)
   return (
     <>
-    <div className="h-cover bg-neutral-950">
+    <div className="h-cover bg-neutral-900">
       <h1 className="sm:text-4xl text-2xl font-bold my-6 text-white pt-20 text-center">
         {project.title}
       </h1>
