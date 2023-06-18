@@ -8,14 +8,27 @@ import Portfolio from "./pages/Portfolio"
 import Contact from "./pages/Contact"
 import Project  from "./pages/Project";
 import NotFound from "./pages/NotFound";
+import Signin from "./pages/Signin";
+import Account from "./pages/Account";
+import { AuthContextProvider } from "./context/AuthContext";
+import Protected from "./components/Protected";
 
 function App() {
 
   return (
     <Router>
+      <AuthContextProvider>
       <Navbar />
         <div>
           <Routes>
+            
+            <Route path="/signin" element={<Signin />}/>
+            <Route path="/account" element={
+              <Protected>
+                <Account />
+              </Protected>
+            }/>
+            
             <Route path="/" element={<Home />}/>
             <Route path="/about" element={<About />}/>
             <Route path="/resume" element={<Resume />}/>
@@ -25,6 +38,7 @@ function App() {
             <Route path="*" element={<NotFound />}/>
           </Routes>
         </div>
+        </AuthContextProvider>
       </Router>
   )
 }

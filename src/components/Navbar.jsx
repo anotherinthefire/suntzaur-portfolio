@@ -1,5 +1,16 @@
 import { Link } from "react-router-dom";
+import { UserAuth } from "../context/AuthContext";
 const Navbar = () => {
+  const { user, logOut } = UserAuth()
+
+  const handleSignOut = async () => {
+    try {
+      await logOut()
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
   return (
     <nav className='text-right fixed top-0 bg-neutral-900 w-full text-lg text-white font-mono'>
       <ul>
@@ -28,11 +39,16 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-        <li className='inline-block py-4'>
-          <Link to='/' className='bg-red-800 rounded-2xl px-3 mx-3'>
-            login
-          </Link>
-        </li>
+        {user?.displayName ? <li className="inline-block py-4">(<button className="pl-6 -r8" onClick={handleSignOut}>Logout</button>)
+        </li> :
+          <li className='inline-block py-4'>
+            <Link to='/signin' className='bg-red-800 rounded-2xl px-3 mx-3'>
+              login
+            </Link>
+          </li>
+        }
+
+
       </ul>
     </nav>
   )
