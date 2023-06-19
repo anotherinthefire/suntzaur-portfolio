@@ -10,7 +10,7 @@ const Home = () => {
         <img src="../../public/images/theprof-nobg.png" className="w-96 ml-auto mr-10 shadow-2xl" />
       </div>
       <p className="text-white">
-        <span className="text-6xl  font-semibold">suntzaur</span><br />
+        <span className="text-5xl  font-semibold">suntzaur</span><br />
         <span className="text-2xl">Aspiring <span className="text-red-700">Software Engineer</span> from Philippines</span>
         <br />
         <Link to='https://github.com/anotherinthefire' target="_blank" className='pr-3 text-white text-2xl'>
