@@ -16,7 +16,7 @@ const Projects = ({ projects }) => {
               <h3 className="text-lg font-medium text-white mb-3">{project.title}</h3>
               <p className="leading-relaxed mb-3 text-white">{project.description[0].substring(0, 110)}...</p>
               <div className="flex item-center flex-wrap">
-                <div className="text-red-800 inline-flex items-center md:mb-2 lg:mb-0">
+                <div className="text-red-600 inline-flex items-center md:mb-2 lg:mb-0">
                   Learn more
                 </div>
               </div>

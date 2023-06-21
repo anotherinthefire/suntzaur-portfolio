@@ -4,7 +4,7 @@ rfce
 
 add account page in nav
 add team profile in projects
-
+identify how to remove nav page not found in react
 
 nagane autcontext
 /* eslint-disable react-hooks/rules-of-hooks */

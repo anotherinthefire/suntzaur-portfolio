@@ -40,7 +40,7 @@ const Signin = () => {
                     <input
                         type="email"
                         required
-                        className="w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border focus:border-red-800 shadow-sm rounded-lg"
+                        className="w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border focus:border-red-600 shadow-sm rounded-lg"
                     />
                 </div>
                 <div>
@@ -50,7 +50,7 @@ const Signin = () => {
                     <input
                         type="password"
                         required
-                        className="w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border focus:border-red-800 shadow-sm rounded-lg"
+                        className="w-full mt-2 px-3 py-2 text-white bg-transparent outline-none border focus:border-red-600 shadow-sm rounded-lg"
                     />
                 </div>
                 <div className="flex items-center justify-between text-sm">
@@ -58,15 +58,15 @@ const Signin = () => {
                         <input type="checkbox" id="remember-me-checkbox" className="checkbox-item peer hidden" />
                         <label
                             htmlFor="remember-me-checkbox"
-                            className="relative flex w-5 h-5 bg-white peer-checked:bg-red-800 rounded-md border ring-offset-2 ring-red-800 duration-150 peer-active:ring cursor-pointer after:absolute after:inset-x-0 after:top-[3px] after:m-auto after:w-1.5 after:h-2.5 after:border-r-2 after:border-b-2 after:border-white after:rotate-45"
+                            className="relative flex w-5 h-5 bg-white peer-checked:bg-red-600 rounded-md border ring-offset-2 ring-red-600 duration-150 peer-active:ring cursor-pointer after:absolute after:inset-x-0 after:top-[3px] after:m-auto after:w-1.5 after:h-2.5 after:border-r-2 after:border-b-2 after:border-white after:rotate-45"
                         >
                         </label>
                         <span>Remember me</span>
                     </div>
-                    <a href="javascript:void(0)" className="text-center text-red-800 hover:text-white">Forgot password?</a>
+                    <a href="javascript:void(0)" className="text-center text-red-600 hover:text-white">Forgot password?</a>
                 </div>
                 <button
-                    className="w-full px-4 py-2 text-white font-medium bg-red-800 hover:bg-red-800 active:bg-red-800 rounded-lg duration-150"
+                    className="w-full px-4 py-2 text-white font-medium bg-red-600 active:bg-red-600 rounded-lg duration-150 hover:bg-red-700"
                 >
                     Sign in
                 </button>
@@ -88,8 +88,10 @@ const Signin = () => {
                 </svg>
                 Continue with Google
             </button>
-            <p className="text-center">Dont have an account? <a href="javascript:void(0)" className="font-medium text-red-800 hover:text-red-800">Sign up</a></p>
+            <p className="text-center">Dont have an account? <a href="javascript:void(0)" className="font-medium text-red-600 hover:text-red-700">Continue with google muna hahaha</a></p>
         </div>
+
+        
     </main>
 )
 }
