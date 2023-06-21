@@ -2,6 +2,9 @@ rafce
 
 rfce
 
+add account page in nav
+add team profile in projects
+
 
 nagane autcontext
 /* eslint-disable react-hooks/rules-of-hooks */

@@ -39,7 +39,11 @@ const Navbar = () => {
             Contact
           </Link>
         </li>
-        {user?.displayName ? <li className="inline-block py-4">(<button className="pl-6 -r8" onClick={handleSignOut}>Logout</button>)
+        {user?.displayName ? <li className="inline-block py-4">
+        <Link to='/account'>
+          <button className="py-4 px-6 -r8 inline-block"> Account </button>
+        </Link>
+          <button className="py-4 px-6 -r8 inline-block" onClick={handleSignOut}>Logout</button>
         </li> :
           <li className='inline-block py-4'>
             <Link to='/signin' className='bg-red-800 rounded-2xl px-3 mx-3'>
