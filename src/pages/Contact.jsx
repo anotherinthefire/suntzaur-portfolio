@@ -13,7 +13,7 @@ const Contact = () => {
           </p>
         </div>
         <div className="mt-12 mx-auto px-4 p-8 bg-white sm:max-w-lg sm:px-8 sm:rounded-xl">
-          <form action="https://formsubmit.co/ultrar.qcydoqcu@gmail.com" method="POST" className="space-y-5">
+          <form action="https://formsubmit.co/77d285889d737dd43996fbdef1659d78" method="POST" className="space-y-5">
             <div>
             </div>
             <div>
