@@ -17,7 +17,7 @@ const Signin = () => {
 
     useEffect(() => {
         if(user != null) {
-            navigate('/')
+            navigate('/account')
         }
     },[navigate, user])
 
