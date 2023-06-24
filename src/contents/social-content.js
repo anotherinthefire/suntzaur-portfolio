@@ -1,35 +1,38 @@
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
+import { faGithubSquare, faLinkedin, faStackOverflow, faRedditSquare, faFacebookSquare, faTwitterSquare, faInstagram } from "@fortawesome/free-brands-svg-icons"
+
 const socials = [
     {
         link: "https://github.com/anotherinthefire",
-        icon: "faGithubSquare"
+        icon: faGithubSquare
         },
         {
         link: "https://www.linkedin.com/in/ron-godfrey-ultra-036298241/",
-        icon: "faLinkedin"
+        icon: faLinkedin
         },
         {
         link: "https://stackoverflow.com/users/21646387/suntzaur",
-        icon: "faStackOverflow"
+        icon: faStackOverflow
         },
         {
         link: "https://www.reddit.com/user/suntzaur",
-        icon: "faRedditSquare"
+        icon: faRedditSquare
         },
         {
         link: "https://www.facebook.com/galawang.jedi",
-        icon: "faFacebookSquare"
+        icon: faFacebookSquare
         },
         {
         link: "https://twitter.com/RUltra25",
-        icon: "faTwitterSquare"
+        icon: faTwitterSquare
         },
         {
         link: "https://www.instagram.com/rgultra_/",
-        icon: "faInstagram"
+        icon: faInstagram
         },
         {
         link: "mailto:rongodfreyultra@gmail.com",
-        icon: "faEnvelope"
+        icon: faEnvelope
         }
 ]
 

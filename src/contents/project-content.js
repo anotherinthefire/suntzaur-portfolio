@@ -1,20 +1,28 @@
+import order from '../../public/images/ordering-website.png'
+import fulfillment from '../../public/images/order-fulfillment.png'
+import tipid from '../../public/images/estudyantipid.png'
+import inventory from '../../public/images/inventory.jpeg'
+import guess from '../../public/images/gtw.png'
+import voting from '../../public/images/voting.png'
+import hospital from '../../public/images/has.png'
+
 const projects= [
     {
         name:"ordering-website",
         title:"Ordering Website",
-        thumbnail:"../../public/images/ordering-website.png",
+        thumbnail:order,
         description:[`Worked as Project Manager, Database Designer and Web Developer for System Integrtion 2`],
     },
     {
         name:"order-management",
         title:"Order Fulfillment Management System",
-        thumbnail:"../../public/images/order-fulfillment.png",
+        thumbnail:fulfillment,
         description:[`Worked as System Developer and Database Designer for System Integration 2`,``],
     },
     {
         name:"estudyantipid",
         title:"EstudyanTipid",
-        thumbnail:"../../public/images/estudyantipid.png",
+        thumbnail:tipid,
         description:[`Worked as Project Manager and Web Developer for Application Development`,
         `Budgeting is a crucial skill for students to acquire Since it may support successful money management, debt avoidance, and the achievement of financial objectives . There are specific reasons why a student needs to know and do budgeting. An example of this is for students to develop financial responsibility and establish wise financial practices that they can use in their careers. Budgeting can also help to manage the expenses associated with education of the students, paying tuition, paying for books, payment for projects etc. Creating a budget enables students to distribute their funds on priorities and avoid overspending.
         The proponents proposed EstudyanTipid: A Web-Based Student Budget Planner is a website that uses different technologies to design and build the website. Specifically, the front-end design uses HTML and CSS, while the back-end functionalities use PHP and JavaScript. This project aims to attract new customers and improve the features of the entire system. Estudyantipid is a website which aims to help specifically students in managing their finances with the use of user-friendly features that can help them budget their allowance and save some at the same time. Overall, the website is a valuable tool that can help a student allowing them to manage their finances efficiently and make proper financial decisions.`],
@@ -22,7 +30,7 @@ const projects= [
     {
         name:"inventory-system",
         title:"Inventory Management System",
-        thumbnail:"../../public/images/inventory.jpeg",
+        thumbnail:inventory,
         description:[`Worked as Project Manager for Software Engineering and System Integration and Architecture 1`, 
         `Many people still use the manual strategy or technique of monitoring their
         inventory with the use of spreadsheets, and some still use paper and keep it all in their
@@ -41,14 +49,14 @@ const projects= [
     {
         name:"guess-word",
         title:"Guess the Word Game",
-        thumbnail:"../../public/images/gtw.png",
+        thumbnail:guess,
         description:[`Worked as Project Manager for Application Development`],
     }
     ,
     {
         name:"voting-system",
         title:"Voting System",
-        thumbnail:"../../public/images/voting.png",
+        thumbnail:voting,
         description:[`While working on this project, I had the opportunity to work with Visual Basic, C#, and
         Microsoft SQL Server Management Studio 18, which greatly enhanced my analytical and system development
         skills. Through the utilization of Visual Basic and C#, I learned how to develop software applications using
@@ -88,7 +96,7 @@ const projects= [
     {
         name:"appointment-system",
         title:"Hospital Online Appointment System",
-        thumbnail:"../../public/images/has.png",
+        thumbnail:hospital,
         description:[`During this project, I had the opportunity to take on the role of a Project Manager, which
         allowed me to oversee and coordinate the various aspects of the project. By taking this role, I gained
         valuable experience in system analysis and design, as well as team management. As a Project Manager, one of

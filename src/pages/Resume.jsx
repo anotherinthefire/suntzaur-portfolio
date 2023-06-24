@@ -2,7 +2,7 @@ import data from "../contents/resume-content"
 function Resume() {
   return (
     // add flex if going to add an image
-    <div className="bg-neutral-900 h-fit text-white px-10 font-mono pb-10">
+    <div className="bg-neutral-900 h-full text-white px-10 font-mono pb-10">
       <div className=" pt-20">
         {/* <img src="../../public/images/profilev4.png" className="w-60 h-60"/> */}
         <p className="text-6xl font-thin">Ron Godfrey P. Ultra</p>
