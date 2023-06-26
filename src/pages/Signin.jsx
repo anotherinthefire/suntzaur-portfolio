@@ -22,7 +22,7 @@ const Signin = () => {
     },[navigate, user])
 
   return (
-    <main className="w-full h-screen flex flex-col items-center justify-center px-4 bg-neutral-900">
+    <main className="w-full h-screen flex flex-col items-center justify-center px-4">
         <div className="max-w-sm w-full text-white space-y-5">
             <div className="text-center pb-8">
                 <div className="mt-5">

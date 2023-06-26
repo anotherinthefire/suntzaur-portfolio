@@ -11,7 +11,7 @@ const Account = () => {
     }
 
     return (
-        <div className="bg-neutral-900 h-screen text-white">
+        <div className="h-screen text-white">
             <h1 className="ml-96 pt-80 font-bold text-3xl">Welcome, {user?.displayName}</h1><br />
             <p className="ml-96">Thankyou for logging in! more updates will come soon :&gt;</p>
             <button className="ml-96 bg-transparent hover:bg-white text-white hover:text-neutral-900 font-semibold py-2 px-4 border border-gray-400 rounded shadow mt-10" onClick={handleSignOut}>Logout</button>

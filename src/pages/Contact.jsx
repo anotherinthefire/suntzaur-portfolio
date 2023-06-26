@@ -2,7 +2,7 @@ import contactMethods from "../contents/contact-content"
 const Contact = () => {
 
   return (
-    <main className="py-14 bg-neutral-900">
+    <main className="py-14">
       <div className="z-10 max-w-screen-xl mx-auto text-gray-600 sm:px-4 md:px-8">
         <div className="max-w-lg space-y-3 px-4 sm:mx-auto sm:text-center sm:px-0">
           <p className="text-white text-3xl font-semibold sm:text-4xl">

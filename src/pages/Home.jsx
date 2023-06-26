@@ -5,7 +5,7 @@ import socials from '../contents/social-content';
 
 const Home = () => {
   return (
-    <div className="h-screen bg-neutral-900 font-mono grid grid-cols-2 items-center">
+    <div className="h-screen font-mono grid grid-cols-2 items-center">
       <div className="">
         <img src={bg} className="w-96 ml-auto mr-10 shadow-2xl" />
       </div>
