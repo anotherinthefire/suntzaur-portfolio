@@ -18,7 +18,7 @@ const Home = () => {
             <FontAwesomeIcon icon={social.icon} />
           </Link>
         ))}
-        </p>
+      </p>
     </div>
   )
 }

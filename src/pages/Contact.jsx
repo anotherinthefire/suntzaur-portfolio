@@ -34,13 +34,13 @@ const Contact = () => {
               <label className="font-medium">
                 Message
               </label>
-              <textarea 
-              required 
-              name="message"
-              className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"></textarea>
+              <textarea
+                required
+                name="message"
+                className="w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-gray-800 shadow-sm rounded-lg"></textarea>
             </div>
             <button
-            type="submit"
+              type="submit"
               className="w-full px-4 py-2 text-white font-medium bg-red-600 hover:bg-red-700 active:bg-gray-900 rounded-lg duration-150"
             >
               Submit

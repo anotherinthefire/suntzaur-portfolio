@@ -24,13 +24,13 @@ function App() {
 
           <div>
             <Routes>
-            <Route element={<Layout />}>
-              <Route path="/signin" element={<Signin />} />
-              <Route path="/account" element={
-                <Protected>
-                  <Account />
-                </Protected>
-              } />
+              <Route element={<Layout />}>
+                <Route path="/signin" element={<Signin />} />
+                <Route path="/account" element={
+                  <Protected>
+                    <Account />
+                  </Protected>
+                } />
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/resume" element={<Resume />} />

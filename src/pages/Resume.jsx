@@ -32,7 +32,7 @@ function Resume() {
           </div>
           <p className="mt-5">{school.duration}</p>
           <div className="m-0 w-full pt-5 pl-5">
-          <p>{school.activitiesAndSocieties}</p>
+            <p>{school.activitiesAndSocieties}</p>
             <ul className="m-0 grid grid-cols-2 gap-4">
               {school.listItems.map((item, index) => (
                 <li key={index}>
