@@ -1,0 +1,9 @@
+const ManageAbout = () => {
+  return (
+    <div className="h-screen">
+        
+    </div>
+  )
+}
+
+export default ManageAbout
