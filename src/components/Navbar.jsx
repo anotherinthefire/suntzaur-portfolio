@@ -12,7 +12,8 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='text-right fixed top-0 bg-neutral-900 w-full text-lg text-white font-mono '>
+    <div>
+      <nav className='text-right fixed top-0 bg-neutral-900 w-full text-lg text-white font-mono '>
       <ul>
         <li className='inline-block py-4'>
           <Link to='/' className='pl-6 pr-8'>
@@ -51,10 +52,9 @@ const Navbar = () => {
             </Link>
           </li>
         }
-
-
       </ul>
     </nav>
+    </div>
   )
 }
 

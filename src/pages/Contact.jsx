@@ -2,7 +2,7 @@ import contactMethods from "../contents/contact-content"
 const Contact = () => {
 
   return (
-    <main className="py-14">
+    <main className="py-14 2xl:h-screen">
       <div className="z-10 max-w-screen-xl mx-auto text-gray-600 sm:px-4 md:px-8">
         <div className="max-w-lg space-y-3 px-4 sm:mx-auto sm:text-center sm:px-0">
           <p className="text-white text-3xl font-semibold sm:text-4xl">
@@ -12,7 +12,7 @@ const Contact = () => {
             Let’s work together!
           </p>
         </div>
-        <div className="mt-12 mx-auto px-4 p-8 bg-white sm:max-w-lg sm:px-8 sm:rounded-xl">
+        <div className="mt-12 mx-auto px-4 p-8 bg-white max-w-md rounded-xl sm:mt-0 sm:px-8">
           <form action="https://formsubmit.co/77d285889d737dd43996fbdef1659d78" method="POST" className="space-y-5">
             <div>
             </div>
