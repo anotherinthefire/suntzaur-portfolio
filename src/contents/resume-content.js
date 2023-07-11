@@ -1,7 +1,7 @@
 // ../contents/resume-content.
-import zion from '../../public/images/zion.png'
-import qcu from '../../public/images/qcu.png'
-import fatima from '../../public/images/fatima.png'
+import zion from '/images/zion.png'
+import qcu from '/images/qcu.png'
+import fatima from '/images/fatima.png'
 
 const data = {
   volunteering: {

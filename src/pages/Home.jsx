@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import bg from '../../public/images/theprof-nobg.png';
+import bg from '/images/theprof-nobg.png';
 import socials from '../contents/social-content';
 
 const Home = () => {

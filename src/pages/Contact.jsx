@@ -3,9 +3,9 @@ const Contact = () => {
 
   return (
     <main className="py-14 2xl:h-screen">
-      <div className="z-10 max-w-screen-xl mx-auto text-gray-600 sm:px-4 md:px-8">
+      <div className="z-10 max-w-screen-xl mx-auto text-gray-600 sm:px-4 md:px-8 px-3">
         <div className="max-w-lg space-y-3 px-4 sm:mx-auto sm:text-center sm:px-0">
-          <p className="text-white text-3xl font-semibold sm:text-4xl">
+          <p className="text-white text-3xl font-semibold sm:text-4xl pt-4">
             Get in touch
           </p>
           <p className="text-gray-300">

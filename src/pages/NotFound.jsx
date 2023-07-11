@@ -1,10 +1,12 @@
+import logo from '/images/theprof-nobg.png'
+
 const NotFound = () => {
     return (
         <main>
             <div className="max-w-screen-xl mx-auto px-4 flex items-center justify-start h-screen md:px-8">
                 <div className="max-w-lg mx-auto flex-1 flex-row-reverse gap-12 items-center justify-between md:max-w-none md:flex">
                     <div className="flex-1 max-w-lg">
-                        <img src="../../public/images/theprof-nobg.png" className="shadow-2xl" />
+                        <img src={logo} className="shadow-2xl" />
                     </div>
                     <div className="mt-12 flex-1 max-w-lg space-y-3 md:mt-0">
                         <h3 className="text-red-600 font-semibold">

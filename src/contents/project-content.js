@@ -1,10 +1,10 @@
-import order from '../../public/images/ordering-website.png'
-import fulfillment from '../../public/images/order-fulfillment.png'
-import tipid from '../../public/images/estudyantipid.png'
-import inventory from '../../public/images/inventory.jpeg'
-import guess from '../../public/images/gtw.png'
-import voting from '../../public/images/voting.png'
-import hospital from '../../public/images/has.png'
+import order from '/images/ordering-website.png'
+import fulfillment from '/images/order-fulfillment.png'
+import tipid from '/images/estudyantipid.png'
+import inventory from '/images/inventory.jpeg'
+import guess from '/images/gtw.png'
+import voting from '/images/voting.png'
+import hospital from '/images/has.png'
 
 const projects= [
     {

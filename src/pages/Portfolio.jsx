@@ -2,7 +2,7 @@ import projectContent from "../contents/project-content"
 import Projects from "../components/Projects"
 const Portfolio = () => {
   return (
-    <div className="h-cover">
+    <div className="h-cover px-5">
       <h1 className='sm:text-4xl text-2xl font-bold my-6 text-white pt-10 pl-10 font-mono'>
         Recent projects:
       </h1>
