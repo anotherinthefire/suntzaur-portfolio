@@ -1,13 +1,13 @@
 import { Outlet } from "react-router-dom";
-import Navmin from "../admin/components/Navmin";
 import { UserAuth } from "../context/AuthContext";
 import { Link } from "react-router-dom";
+import Navmin from "../admin/components/Navmin";
 
 const Layout = () => {
   const { user, logOut } = UserAuth()
-  const targetUserId = "ENG6gSuRiqZ2sVfMNmKpU9RHREW2";
+  const targetUserId = "ENG6gSuRiqZ2sVfMNmKpU9RHREW2"
 
-  const isUserIdMatch = user?.uid === targetUserId;
+  const isUserIdMatch = user?.uid === targetUserId
 
   const handleSignOut = async () => {
     try {
@@ -19,7 +19,7 @@ const Layout = () => {
 
   return (
     <>
-      {isUserIdMatch ? <Navmin /> :
+      {isUserIdMatch ? <div><Navmin /> <Outlet /></div> :
 
         <div className="drawer">
           <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
@@ -61,12 +61,19 @@ const Layout = () => {
                       Contact
                     </Link>
                   </li>
-                  {user?.displayName ? <li>
-                    <Link to='/account'>
-                      <button> Account </button>
-                    </Link>
-                    <button onClick={handleSignOut}>Logout</button>
-                  </li> :
+                  {user?.displayName ?
+                    <>
+                      <li>
+                        <Link to='/account'>
+                          <button> Account </button>
+                        </Link>
+
+                      </li>
+                      <li>
+                        <button onClick={handleSignOut}>Logout</button>
+                      </li>
+                    </>
+                    :
                     <li>
                       <Link to='/signin' className="bg-red-800">
                         login
@@ -81,7 +88,7 @@ const Layout = () => {
           </div>
           <div className="drawer-side">
             <label htmlFor="my-drawer-3" className="drawer-overlay"></label>
-            <ul className="menu p-4 w-80 h-full bg-neutral-900">
+            <ul className="menu p-4 w-80 h-full bg-neutral-900 text-white">
               {/* Sidebar */}
               <li>
                 <Link to='/'>
@@ -114,7 +121,7 @@ const Layout = () => {
                 </Link>
                 <button onClick={handleSignOut}>Logout</button>
               </li> :
-                <li>
+                <li className="bg-red-800">
                   <Link to='/signin'>
                     login
                   </Link>
@@ -124,7 +131,6 @@ const Layout = () => {
 
           </div>
         </div>
-
       }
     </>
   );

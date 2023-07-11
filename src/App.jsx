@@ -21,6 +21,7 @@ import ManageContact from "./admin/pages/ManageContact";
 import ManageProjects from "./admin/pages/ManageProjects"
 
 import ProtectedAdmin from "./components/ProtectedAdmin";
+import Unauthorized from "./pages/Unauthorized";
 
 function App() {
 
@@ -51,7 +52,7 @@ function App() {
                 <Route path="/manage-contact" element={<ProtectedAdmin><ManageContact /></ProtectedAdmin>} />
               </Route>
 
-
+              <Route path="/unauthorized" element={<Unauthorized />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </div>

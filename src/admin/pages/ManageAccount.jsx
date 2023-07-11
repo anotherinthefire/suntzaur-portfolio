@@ -1,8 +1,7 @@
 import { UserAuth } from "../context/AuthContext"
 
-const Account = () => {
+const ManageAccount = () => {
     const { logOut, user } = UserAuth()
-
     const handleSignOut = async () => {
         try {
             await logOut()
@@ -10,7 +9,6 @@ const Account = () => {
             console.log(error)
         }
     }
-
     return (
         <div className="hero min-h-screen bg-neutral-900 text-white">
             <div className="hero-content flex-col lg:flex-row">
@@ -34,4 +32,4 @@ const Account = () => {
     )
 }
 
-export default Account
+export default ManageAccount

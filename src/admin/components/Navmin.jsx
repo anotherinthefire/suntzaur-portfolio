@@ -12,49 +12,73 @@ const Navmin = () => {
   }
 
   return (
-    <nav className='text-right fixed top-0 bg-neutral-900 w-full text-lg text-white font-mono '>
-      <ul>
-        <li className='inline-block py-4'>
-          <Link to='/manage-home' className='pl-6 pr-8'>
-            Home
-          </Link>
-        </li>
-        <li className='inline-block py-4'>
-          <Link to='/manage-about' className='pl-6 pr-8'>
-            About
-          </Link>
-        </li>
-        <li className='inline-block py-4'>
-          <Link to='/manage-resume' className='pl-6 pr-8'>
-            Resume
-          </Link>
-        </li>
-        <li className='inline-block py-4'>
-          <Link to='/manage-project-list' className='pl-6 pr-8'>
-            Portfolio
-          </Link>
-        </li>
-        <li className='inline-block py-4'>
-          <Link to='/manage-contact' className='pl-6 pr-8'>
-            Contact
-          </Link>
-        </li>
-        {user?.displayName ? <li className="inline-block py-4">
-        <Link to='/account'>
-          <button className="py-4 px-6 -r8 inline-block"> Admin </button>
-        </Link>
-          <button className="py-4 px-6 -r8 inline-block" onClick={handleSignOut}>Logout</button>
-        </li> :
-          <li className='inline-block py-4'>
-            <Link to='/signin' className='bg-red-800 rounded-2xl px-3 mx-3'>
-              login
-            </Link>
-          </li>
-        }
+    <>
+      <div className="drawer z-10">
+        <input id="my-drawer" type="checkbox" className="drawer-toggle" />
+        <div className="drawer-content">
+
+          <label htmlFor="my-drawer" className="fixed top-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 m-5">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
+            </svg>
+
+          </label>
+        </div>
+        <div className="drawer-side">
+          <label htmlFor="my-drawer" className="drawer-overlay"></label>
+          <ul className="menu p-4 w-80 h-full bg-base-200 text-base-content">
+            {/* Sidebar */}
+            <li>
+              <Link to='/'>
+                Manage Home
+              </Link>
+            </li>
+            <li>
+              <Link to='/about'>
+                Manage About
+              </Link>
+            </li>
+            <li>
+              <Link to='/resume'>
+                Manage Resume
+              </Link>
+            </li>
+            <li>
+              <Link to='/project-list'>
+                Manage Portfolio
+              </Link>
+            </li>
+            <li>
+              <Link to='/manage-contact'>
+                Manage Contact
+              </Link>
+            </li>
+            <li>
+              <Link to='/contact'>
+                Manage Accounts
+              </Link>
+            </li>
 
 
-      </ul>
-    </nav>
+            {user?.displayName ? <li>
+              <Link to='/account'>
+                <button> Admin </button>
+              </Link>
+              <button onClick={handleSignOut}>Logout</button>
+            </li> :
+              <li className="bg-red-800">
+                <Link to='/signin'>
+                  login
+                </Link>
+              </li>
+            }
+
+          </ul>
+        </div>
+      </div>
+    </>
+
+
   )
 }
 

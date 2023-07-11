@@ -2,11 +2,21 @@ rafce
 
 rfce
 
-add account page in nav
+add account page in nav[v]
 add team profile in projects
-identify how to remove nav page not found in react
+identify how to remove nav page not found in react[v]
+fix admin navigation
 
-nagane autcontext
+buttons in management
+-add
+-clear
+-preview
+
+container buttons
+-update
+-delete > modal > yes || no
+
+agane autcontext
 
 will think about it nav
 import { Outlet } from "react-router-dom";
