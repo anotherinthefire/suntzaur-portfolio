@@ -83,6 +83,7 @@ const data = {
       "Audio Engineering",
       "Leadership",
       "Creative Problem Solving",
+      "Conflict Resolution",
       "Teamwork",
       "Communication",
       "Organizational Leadership",

@@ -57,6 +57,11 @@ const Layout = () => {
                     </Link>
                   </li>
                   <li>
+                    <Link to='/testimonials'>
+                      Testimonial
+                    </Link>
+                  </li>
+                  <li>
                     <Link to='/contact'>
                       Contact
                     </Link>
@@ -108,6 +113,11 @@ const Layout = () => {
               <li>
                 <Link to='/project-list'>
                   Portfolio
+                </Link>
+              </li>
+              <li>
+                <Link to='/testimonials'>
+                  Testimonial
                 </Link>
               </li>
               <li>

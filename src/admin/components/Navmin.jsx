@@ -29,22 +29,27 @@ const Navmin = () => {
           <ul className="menu p-4 w-80 h-full bg-base-200 text-base-content">
             {/* Sidebar */}
             <li>
-              <Link to='/'>
+              <Link to='/dashboard'>
+                Dashboard
+              </Link>
+            </li>
+            <li>
+              <Link to='/manage-home'>
                 Manage Home
               </Link>
             </li>
             <li>
-              <Link to='/about'>
+              <Link to='/manage-about'>
                 Manage About
               </Link>
             </li>
             <li>
-              <Link to='/resume'>
+              <Link to='/manage-resume'>
                 Manage Resume
               </Link>
             </li>
             <li>
-              <Link to='/project-list'>
+              <Link to='/manage-project-list'>
                 Manage Portfolio
               </Link>
             </li>
@@ -54,7 +59,7 @@ const Navmin = () => {
               </Link>
             </li>
             <li>
-              <Link to='/contact'>
+              <Link to='/manage-accounts'>
                 Manage Accounts
               </Link>
             </li>
