@@ -68,7 +68,7 @@ const Testimonial = () => {
 
       <div className="fixed bottom-4 right-4">
         <button className="btn bg-red-800 hover:bg-white text-white hover:text-black" onClick={() => window.my_modal_4.showModal()}>
-          Add Testimonials
+          Add Testimonial
         </button>
       </div>
 

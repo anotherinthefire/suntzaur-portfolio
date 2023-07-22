@@ -16,11 +16,20 @@ container buttons
 -update
 -delete > modal > yes || no
 
+dont display the add testimonials button when not logged in
+also add a condition that change the testimonials heading paragraph when logged in
+you need to log in to add testimonials => add your testimonials
+
+orrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+
+just change the button text from
+login => add testimonial
+
 google sign in before makapag testimonials then sa profile or sa testimoiaks firn is need mag lagay ng role like web dev etc, new table for testimonials
 
 agane autcontext
 
-              This section showcases the impact and value of my work through the words of satisfied clients and partners. These testimonials serve as a testament to the quality and effectiveness of my services, providing valuable insights and inspiring confidence in my abilities. Thank you for considering their perspectives and joining me on this journey.
+This section showcases the impact and value of my work through the words of satisfied clients and partners. These testimonials serve as a testament to the quality and effectiveness of my services, providing valuable insights and inspiring confidence in my abilities. Thank you for considering their perspectives and joining me on this journey.
 
 
 will think about it nav
