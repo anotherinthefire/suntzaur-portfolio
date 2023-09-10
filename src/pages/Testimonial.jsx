@@ -23,7 +23,7 @@ const Testimonial = () => {
   ]
 
   return (
-    <div className="h-fit py-16">
+    <div className="min-h-screen h-fit py-16">
       <section className="mt-10 pb-10">
         <div className="max-w-screen-xl mx-auto px-4 md:px-8">
           <div className="max-w-xl sm:text-center md:mx-auto">
